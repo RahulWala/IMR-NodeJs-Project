@@ -7,16 +7,18 @@ var async  = require("async");
 var appRouter = express.Router();
 
 module.exports.controllerFunction = function(app){
-
 	appRouter.get("/", function(req, res){
 		dbConn.query("SELECT * FROM categories_table", (err, data)=>{
 			if(!err)
-				console.log(data);
+				res.send(data);
 			else
 				console.log(err);
 		});
 	});
 
+	/*appRouter.get("/add/:id", (req, res)=>{
+		dbConn.query("SELECT * FROM categories_table WHERE id=", )
+	});*/
 
 
 	/*****************************************/
