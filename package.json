@@ -10,6 +10,7 @@
     "Internet",
     "movie",
     "rating",
+    "internet",
     "app"
   ],
   "author": "Rajnish Sir",
@@ -21,6 +22,7 @@
     "express": "^4.17.0",
     "express-session": "^1.16.1",
     "fs": "0.0.1-security",
+    "jade": "^1.11.0",
     "morgan": "^1.9.1",
     "mysql": "^2.17.1",
     "path": "^0.12.7",
