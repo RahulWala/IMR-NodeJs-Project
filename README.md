@@ -1,2 +1,2 @@
 # IMR-NodeJs-Project
-## Use Nodemon to wathc changes in nodejs
+### Use Nodemon to watch changes in nodejs
