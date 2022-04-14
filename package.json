@@ -16,7 +16,7 @@
   "author": "Rajnish Sir",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.0.0",
+    "async": "^3.2.2",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "express": "^4.17.0",
